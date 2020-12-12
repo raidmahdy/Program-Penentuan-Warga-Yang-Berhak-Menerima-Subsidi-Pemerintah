@@ -1,3 +1,7 @@
+#Program Penentuan Warga Yang Berhak Mendapat Subsidi Pemerintah
+#Dimas Fauzan N dan Raid Mahdy
+#Kelas IK-1E
+
 i=a=b=c=0
 print('Hallo, Selamat Datang di Tembalang :D')
 print('Kampung Elegan Milik Kita Bersama')
