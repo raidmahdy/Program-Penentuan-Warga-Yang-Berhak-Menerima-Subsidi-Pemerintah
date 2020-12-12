@@ -73,3 +73,28 @@ while True:
         i+=1
     if lagi!='y':
         break
+print('                         Data Warga                          ')
+print('-------------------------------------------------------------')
+print('No   Nama        No Rumah        No KIS      Kelompok        ')
+print('-------------------------------------------------------------')
+for n in range(i):
+    print(n+1,'   ',nama[n],'       ',nmrrmh[n],'      ',kis[n],'      ',klmpk[n],'')
+print('TOTAL EKONOMI KEBAWAH = ',a,'Orang\n')
+print('TOTAL EKONOMI MENENGAH = ',b,'Orang\n')
+print('TOTAL EKONOMI KEATAS = ',c,'Orang\n')
+imh=''
+while imh!='y' and imh!='t':
+    imh=input('Ingin Melihat Hasil [y/t] : ')
+if imh=='y':
+    cari=input('Cari berdasarkan Nama (Harus Sesuai Input) : ')
+    for n in range(i):
+        if cari==nama[n]:
+            print
+            print('Nama : ',nama[n])
+            print('Nomer Rumah : ',nmrrmh[n])
+            print('Nomer KIS : ',kis[n])
+            print('Kelompok : ',klmpk[n])
+            break
+        else:
+            print('Nama Yang Anda Inputkan Salah')
+            break
